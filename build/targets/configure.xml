@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project name="Project Configure" default="main">
+	<target name="main">
+		<taskdef name="generatefile" classname="phing.tasks.ext.GenerateFileTask" />
+
+        <generatefile
+			src="${libs.Pifa.deploy.dst}/build/templates/scripts/compress.php.tpl"
+			dst="${paths.scripts}/compress.php" mode="0444"></generatefile>
+		<exec command="${system.bin.php} ${paths.scripts}/compress.php" passthru="true" checkreturn="true" level="info"   />
+
+    </target>
+</project>

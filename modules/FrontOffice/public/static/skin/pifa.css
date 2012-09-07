@@ -1,0 +1,28 @@
+body {
+    background-color: #FFFFFF;
+    background-image: url("/static/skin/img/grid-18px-masked.png");
+    background-position: 0 40px;
+    background-repeat: repeat-x;
+    padding-top: 60px;
+    position: relative;
+}
+
+.footer {
+    border-top: 1px solid #E5E5E5;
+    margin-top: 45px;
+    padding: 35px 0 36px;
+}
+
+.subnav {
+    background-color: #EEEEEE;
+    background-image: -moz-linear-gradient(center top , #F5F5F5 0%, #EEEEEE 100%);
+    background-repeat: repeat-x;
+    border: 1px solid #E5E5E5;
+    border-radius: 4px 4px 4px 4px;
+    height: 36px;
+    width: 100%;
+}
+
+h2{
+    padding-top:20px;
+}
