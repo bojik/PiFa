@@ -11,8 +11,8 @@ PiFa - Pinba Face
 
 Требования
 ----------
-PHP >= 5.3
-Apache+mod_rewrite
+* PHP >= 5.3
+* Apache+mod_rewrite
 
 
 Установка
