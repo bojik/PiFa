@@ -18,11 +18,11 @@ PHP >= 5.3
 ---------
 * Делаем клон системы ваката билдов
 
-	git clone https://github.com/bojik/haru.git .
+	__git clone https://github.com/bojik/haru.git .__
 
 * Запускаем выкат билдов и следуем инструкциям
 
-	./phing get-build -Dsrc=https://github.com/bojik/pifa-builds.git/trunk -Dvcs=svn 
+	__./phing get-build -Dsrc=https://github.com/bojik/pifa-builds.git/trunk -Dvcs=svn__
 
 	Указываем путь, куда будет развернут проект
 
