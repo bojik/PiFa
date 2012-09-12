@@ -17,12 +17,19 @@ PHP >= 5.3
 Установка
 ---------
 * Делаем клон системы ваката билдов
-git clone https://github.com/bojik/haru.git .
+
+	git clone https://github.com/bojik/haru.git .
+
 * Запускаем выкат билдов и следуем инструкциям
-* ./phing get-build -Dsrc=https://github.com/bojik/pifa-builds.git/trunk -Dvcs=svn 
-** Указываем путь, куда будет развернут проект
-** Указываем доменное имя проекта
-** Указываем БД, куда установлена pinba, а так же параметры доступа к mysql
+
+	./phing get-build -Dsrc=https://github.com/bojik/pifa-builds.git/trunk -Dvcs=svn 
+
+Указываем путь, куда будет развернут проект
+
+Указываем доменное имя проекта
+
+Указываем БД, куда установлена pinba, а так же параметры доступа к mysql
+
 * PROFIT!!!
 
 
