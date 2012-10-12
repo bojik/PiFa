@@ -19,7 +19,7 @@ PiFa - Pinba Face
 ---------
 * Делаем клон системы ваката билдов
 
-	__git clone https://github.com/bojik/haru.git .__
+	__git clone https://github.com/TheRatG/haru.git .__
 
 * Запускаем выкат билдов и следуем инструкциям
 
