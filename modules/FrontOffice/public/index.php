@@ -17,7 +17,7 @@ catch ( Exception $e )
 	echo '<pre>';
 	echo __FILE__ . chr( 10 );
 	echo __METHOD__ . chr( 10 );
-	var_dump( $e );
+	echo $e->getMessage();
 	echo '</pre>';
 	// --- // ---
 }
